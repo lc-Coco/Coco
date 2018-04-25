@@ -1,0 +1,80 @@
+<view class="main">
+    <view class="top">
+        <text>发布者</text>
+        <view class="image">
+            <image src="/images/000.png" />
+        </view>
+    </view>
+    <view class="section">
+        <textarea bindblur="bindTextAreaBlur" placeholder="想对大家说" />
+        <view class="upload">
+            <text class="iconfont icon-xiangji"></text>
+        </view>
+    </view>
+    <view class="title">
+        <view class="total">总金额</view>
+        <view class="input">
+            <view>
+                <input type="digit" placeholder="输入金额" />
+            </view>
+            <view class="unit">元</view>
+        </view>
+    </view>
+    <view class="title">
+        <view class="total">红包个数</view>
+        <view class="input">
+            <view>
+                <input type="number" placeholder="输入个数" />
+            </view>
+            <view class="unit">个</view>
+        </view>
+    </view>
+    <view class="title">
+        <view class="total">投放地区</view>
+        <view class="input">
+            <view>
+                <input placeholder="请选择" />
+            </view>
+        </view>
+    </view>
+    <view class="title">
+        <view class="total">我的位置</view>
+        <view class="input">
+            <view>
+                <input placeholder="请选择" />
+            </view>
+        </view>
+    </view>
+    <view class="money">
+        <text>0.00</text>
+        元
+    </view>
+    <view class="fee">系统将收取10%的手续费</view>
+    <button>红包发布</button>
+</view>
+<view class="box">
+    <view class="pay">
+        <text>本次交易需在线支付<text class="two">2.00</text>元</text>
+    </view>
+    <view class="wraper">
+        <view class="lc-radio">
+            <view wx:for="{{itemsMy}}" wx:for-item="list" wx:key="{{index}}" class="items-wrap" hover-stay-time="{{100}}" data-radio-item="{{index}}" bindtap="radioChange">
+                <view class="items">
+                    <image class="items-img" src="{{list.src}}"></image>
+                    <view class="menu">
+                        <text class="menu-main">{{list.itemsName}}</text>
+                        <view class="tips" wx:if="{{!!list.hasExtra}}">
+                            <text class="tips-txt">可用余额</text>
+                            <text class="tips-num">{{list.hasExtra}}</text>
+                            <text class="tips-txt">元</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="myRadio-wrap {{radioIndex==index?'myRadioBorderRed':'myRadioBorderSilver'}}">
+                    <view class="{{radioIndex==index?'myRadio':''}}"></view>
+                </view>
+            </view>
+        </view>
+        <button class="btn">确认支付</button>
+    </view>
+</view>

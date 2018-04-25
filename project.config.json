@@ -1,0 +1,113 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.9",
+	"appid": "wxb766f195d0f24c53",
+	"projectname": "Coco",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "红包首页",
+					"pathName": "pages/redPacket/redPacket/redPacket",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "红包信息",
+					"pathName": "pages/redPacket/message/message",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "领取红包",
+					"pathName": "pages/redPacket/receive/receive",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "文章详情",
+					"pathName": "pages/media/detail/detail",
+					"query": "ArticleId=355"
+				},
+				{
+					"id": 4,
+					"name": "文章首页",
+					"pathName": "pages/media/media/media",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "个人中心首页",
+					"pathName": "pages/my/my/my",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "已发布",
+					"pathName": "pages/my/myReleased/myReleased",
+					"query": ""
+				},
+				{
+					"id": 7,
+					"name": "收益",
+					"pathName": "pages/my/myEarnings/myEarnings",
+					"query": ""
+				},
+				{
+					"id": 8,
+					"name": "我的红包",
+					"pathName": "pages/my/myRedBag/myRedBag",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "建议反馈",
+					"pathName": "pages/my/mySuggest/mySuggest",
+					"query": ""
+				},
+				{
+					"id": 10,
+					"name": "关于我们",
+					"pathName": "pages/my/myAboutUs/myAboutUs",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "设置",
+					"pathName": "pages/my/mySettings/mySettings",
+					"query": ""
+				}
+			]
+		}
+	}
+}

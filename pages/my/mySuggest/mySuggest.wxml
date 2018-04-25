@@ -1,0 +1,12 @@
+<view id="header">
+    <view class="prompt">亲！谢谢您留下对小程序的优化建议，我们将在24小时内处理您的建议，并回复！</view>
+</view>
+<view id="main">
+    <input class="name" value="" type="text" placeholder="请输入昵称" placeholder-style="color: #aaa8aa"></input>
+    <input class="E-mail" value="" type="text" placeholder="请输入昵称" placeholder-style="color: #aaa8aa"></input>
+    <textarea placeholder="请输入您的反馈信息，我们会尽快回复您！" focus="{{focus}}" />
+    <button class="btn" size="default" hover-class="button-hover">提交</button>
+    <view class="nameText">昵称：</view>
+    <view class="E-mailText">邮箱：</view>
+
+</view>

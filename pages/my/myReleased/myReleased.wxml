@@ -1,0 +1,116 @@
+<view id="header">
+    <view class="left">
+        <view class="number">20</view>
+        <view class="released">已发布总金额</view>
+    </view>
+    <view class="right">
+        <view class="number">20</view>
+        <view class="released">已发布总金额</view>
+    </view>
+</view>
+<view id="main">
+    <view class="wrap">
+        <view class="box">
+            <view class="left">
+                <view class="l-img">
+                    <image src="/images/000.png" />
+                </view>
+            </view>
+            <view class="right">
+                <view class="top">
+                    <view class="r-img">
+                        <image src="/images/000.png" />
+                    </view>
+                    <view class="text">
+                        <view class="name">克尔</view>
+                        <view class="content">你快回来, 我的红包</view>
+                    </view>
+                </view>
+                <view class="btm">
+                    <view class="liulan">
+                        <text class="iconfont icon-ai-eye"></text>
+                        <view class="num">1000</view>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-pinglun"></text>
+                        <view class="num">1000</view>
+                    </view>
+                    <view class="zan">
+                        <text class="iconfont icon-zan"></text>
+                        <view class="num">1000</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="wrap">
+        <view class="box">
+            <view class="left">
+                <view class="l-img">
+                    <image src="/images/000.png" />
+                </view>
+            </view>
+            <view class="right">
+                <view class="top">
+                    <view class="r-img">
+                        <image src="/images/000.png" />
+                    </view>
+                    <view class="text">
+                        <view class="name">克尔</view>
+                        <view class="content">你快回来, 我的红包</view>
+                    </view>
+                </view>
+                <view class="btm">
+                    <view class="liulan">
+                        <text class="iconfont icon-ai-eye"></text>
+                        <view class="num">1000</view>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-pinglun"></text>
+                        <view class="num">1000</view>
+                    </view>
+                    <view class="zan">
+                        <text class="iconfont icon-zan"></text>
+                        <view class="num">1000</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="wrap">
+        <view class="box">
+            <view class="left">
+                <view class="l-img">
+                    <image src="/images/000.png" />
+                </view>
+            </view>
+            <view class="right">
+                <view class="top">
+                    <view class="r-img">
+                        <image src="/images/000.png" />
+                    </view>
+                    <view class="text">
+                        <view class="name">克尔</view>
+                        <view class="content">你快回来, 我的红包</view>
+                    </view>
+                </view>
+                <view class="btm">
+                    <view class="liulan">
+                        <text class="iconfont icon-ai-eye"></text>
+                        <view class="num">1000</view>
+                    </view>
+                    <view class="comment">
+                        <text class="iconfont icon-pinglun"></text>
+                        <view class="num">1000</view>
+                    </view>
+                    <view class="zan">
+                        <text class="iconfont icon-zan"></text>
+                        <view class="num">1000</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="loadMore loading" wx:if="{{hasMore}}">正在加载中...</view>
+    <view class="loadMore" wx:else>没有更多了</view>
+</view>

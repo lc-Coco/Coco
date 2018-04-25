@@ -1,0 +1,68 @@
+<view class="head">
+    <view class="search">
+        <text class="iconfont icon-sousuo"></text>
+        <input type="text" confirm-type="search" placeholder-style="color:#a9a9a9" placeholder="搜索标题关键字" />
+        <view class="btn">搜索</view>
+    </view>
+</view>
+<!-- 水平滚动 -->
+<scroll-view scroll-x="true" class="nav">
+    <view wx:for="{{categoryList}}" wx:key="{{item.id}}" data-id="{{item.id}}" bindtap="tabChange" class="{{item.id==sortId?'active':''}}">
+        {{item.title}}
+    </view>
+</scroll-view>
+<view class="main">
+    <view class="wraper" wx:for="{{RecommendList}}" wx:key="{{item.id}}" data-id="{{item.id}}" bindtap="navigateToDetail">
+        <view class="comment" wx:if="{{item.image.length==1}}">
+            <view class="lc-box">
+                <view class="left">
+                    <view class="text">
+                        <text>{{item.title}}</text>
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="lc-img">
+                        <!-- <image src="{{item.image[0]}}" /> -->
+                        <image src="/images/000.png" />
+                    </view>
+                </view>
+            </view>
+            <view class="lc-btm">
+                <view class="name">{{item.article_author.name}}</view>
+                <view class="reviews">
+                    <view>{{item.is_recommend}}评论</view>
+                    <view class="time">{{item.created_at}}</view>
+                </view>
+            </view>
+        </view>
+        <view class="box" wx:elif="{{item.image.length==3}}">
+            <view class="title">
+                <text>{{item.title}}</text>
+            </view>
+            <view class="images">
+                <view class="lc-img">
+                    <!-- <image src="{{item.image[0]}}" /> -->
+                    <image src="/images/000.png" />
+                </view>
+                <view class="lc-img">
+                    <!-- <image src="{{item.image[1]}}" /> -->
+                    <image src="/images/000.png" />
+                </view>
+                <view class="lc-img">
+                    <!-- <image src="{{item.image[2]}}" /> -->
+                    <image src="/images/000.png" />
+                </view>
+            </view>
+            <view class="btm">
+                <view class="name">{{item.article_author.name}}</view>
+                <view class="reviews">
+                    <view>{{item.is_recommend}}评论</view>
+                    <view class="time">{{item.created_at}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<!-- 2.0 上拉加载时候的提示 -->
+<view class="loadMore loading" wx:if="{{hasMore}}">正在加载中...</view>
+<view class="loadMore" wx:else>没有更多了</view>

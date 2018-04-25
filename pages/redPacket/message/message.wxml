@@ -1,0 +1,393 @@
+<view class="wraper">
+    <view class="header">
+        <view class="top">
+            <image src="/images/05.png" />
+        </view>
+        <view class="master">
+            <image src="/images/000.png" />
+        </view>
+        <view class="text">
+            <text>彭可的红包</text>
+            <view class="money">
+                <text class="sum">0.5</text>
+                元
+            </view>
+            <text class="save">已存入余额中</text>
+        </view>
+    </view>
+</view>
+<view class="title">已领取138份</view>
+<view class="main">
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+    <view class="inner">
+        <view class="left">
+            <view class="lc-image">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="people">
+                <view class="name">彭可</view>
+                <view class="time">03-24 12:20</view>
+            </view>
+        </view>
+            <view class="right">0.1元</view>
+    </view>
+</view>

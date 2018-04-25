@@ -1,0 +1,8 @@
+<view class="box">
+    <view class="left">已发布</view>
+    <view class="iconfont icon-jiantouyou"></view>
+</view>
+<view class="box">
+    <view class="left">领取记录</view>
+    <view class="iconfont icon-jiantouyou"></view>
+</view>

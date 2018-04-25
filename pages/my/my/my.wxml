@@ -1,0 +1,89 @@
+<view id="header">
+    <view class="top">
+        <view class="t-img">
+            <image src="/images/000.png" />
+        </view>
+    </view>
+    <view class="name">神狗</view>
+    <view class="inner">
+        <view class="content">
+            <view class="num">0</view>
+            <view>文章收藏</view>
+        </view>
+        <view class="content">
+            <view class="num">10</view>
+            <view>我的关注</view>
+        </view>
+        <view class="content">
+            <view class="iconfont icon-liulanjilu"></view>
+            <view>浏览记录</view>
+        </view>
+    </view>
+</view>
+<view id="main">
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-fensi1"></view>
+            <view class="title">我的粉丝</view>
+        </view>
+        <view class="right">
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-yue"></view>
+            <view class="title">我的余额</view>
+        </view>
+        <view class="m-right">
+                    <view class="money">66.00</view>
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-paihangbang"></view>
+            <view class="title">收益排行</view>
+        </view>
+        <view class="right">
+    
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-hongbaogai"></view>
+            <view class="title">我的红包</view>
+        </view>
+        <view class="right">
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-drxx66"></view>
+            <view class="title">建议反馈</view>
+        </view>
+        <view class="right">
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-bangzhuguanyuwomen"></view>
+            <view class="title">关于我们</view>
+        </view>
+        <view class="right">
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+    <view class="box">
+        <view class="left">
+            <view class="iconfont icon-shezhi"></view>
+            <view class="title">设置</view>
+        </view>
+        <view class="right">
+            <view class="iconfont icon-jiantouyou"></view>
+        </view>
+    </view>
+</view>

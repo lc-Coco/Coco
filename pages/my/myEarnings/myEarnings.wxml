@@ -1,0 +1,22 @@
+<view id="header">您的排名在100名以下</view>
+<view id="main">
+    <view class="title">
+        <view class="ranking">排名</view>
+        <view class="name">昵称</view>
+        <view class="fans">粉丝</view>
+        <view class="total">总收益</view>
+    </view>
+    <view class="inner">
+        <view class="message">
+            <view class="ranking">99</view>
+            <view class="name">
+                <view class="img">
+                    <image src="/images/000.png" />
+                </view>
+                <view class="n-name">扫扫的副教授李副教授垃圾撒旦撒旦</view>
+            </view>
+            <view class="fans">3680</view>
+            <view class="total">5465.00</view>
+        </view>
+    </view>
+</view>

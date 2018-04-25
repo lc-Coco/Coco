@@ -1,0 +1,105 @@
+<import src="../../../wxParse/wxParse.wxml" />
+<view id="main">
+    <view class="title">{{detils.title}}</view>
+    <view class="provenance">
+        <view class="img">
+            <image src="/images/000.png" />
+        </view>
+        <view class="text">
+            <text>{{detils.article_author.name}}</text>
+            <text class="time">{{detils.created_at}}</text>
+        </view>
+        <view class="btn" bindtap="attention" wx:if="{{!isFollow}}">关注</view>
+        <view class="btn" bindtap="attention" wx:else>已关注</view>
+    </view>
+    <view class="rtf">
+        <template is="wxParse" data="{{wxParseData:content.nodes}}" />
+    </view>
+    <view class="admire">
+        <view class="{{isThumbs == 1 ?'already':''}}" bindtap="ArticleThumbs" data-id="{{detils.id}}">
+            <text class="iconfont icon-zan"></text>
+            <text>{{articleThumbs}}</text>
+        </view>
+        <view class="reward">打赏</view>
+        <view class="{{isCollect == 1?'already':''}}">
+            <text class="iconfont icon-shoucang" bindtap="ArticleCollect"></text>
+            <text>{{articleCollect}}</text>
+        </view>
+    </view>
+    <view class="keySearch">
+        <view class="search">相关词搜索</view>
+        <view class="keywords">
+            <view class="keyword" wx:for="{{detils.keyword}}" wx:key="*this">{{item}}</view>
+        </view>
+    </view>
+    <view class="banner">
+        <image src="/images/000.png" />
+        <view class="text">广告</view>
+    </view>
+    <view class="news">
+        <view class="title">相关资讯</view>
+        <view class="hot">
+            <view class="lc-box">
+                <view class="left">
+                    <view class="text">
+                        <text>俏江南黑厨内黑厨内幕被曝光俏江南黑厨内幕被曝光 江小菲：公司业绩直线下降</text>
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="lc-img">
+                        <image src="/images/000.png" />
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="allComment">
+        <view class="title">
+            <text class="iconfont icon-pinglun"></text>
+            <text>全部评论</text>
+            <text>({{commentTotal}}条)</text>
+        </view>
+        <view class="inner" wx:for="{{commentsList}}" wx:key="{{item.id}}" data-index="{{index}}">
+            <view class="left">
+                <view class="left-img">
+                    <image src="{{item.user.avatar}}" />
+                </view>
+            </view>
+            <view class="right">
+                <view class="top">
+                    <view class="name">{{item.user.nickname}}</view>
+                    <view class="praise {{item.is_like?'clickPraise':''}}" bindtap="commentThumbs" data-index="{{index}}" data-id="{{item.id}}" data-like="{{item.is_like}}">
+                        <view class="iconfont icon-zan"></view>
+                        <view>{{item.thumbs_num}}</view>
+                    </view>
+                </view>
+                <view class="center">{{item.content}}</view>
+                <view class="bottom">
+                    <view class="time">{{item.created_at}}</view>
+                    <view class="reply">{{item.reply_num}}回复</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="loadMore loading" wx:if="{{hasMore}}">正在加载中...</view>
+    <view class="loadMore" wx:else>没有更多了</view>
+</view>
+<view id="footer">
+    <view class="wrap">
+        <view class="f-input">
+            <input value="{{commentContent}}" type="text" confirm-type="done" placeholder="写评论" placeholder-style="color:#9e9e9e" bindinput="EventHandle" maxlength="255"></input>
+        </view>
+        <view class="btn">
+            <view class="submit" bindtap="submitComment">提交</view>
+            <button size="default" type="default" plain="true" hover-class="button-hover" open-type="share">
+                <text class="iconfont icon-chakantiezifenxiang"></text>
+            </button>
+        </view>
+    </view>
+</view>
+<view class="award" wx:if="{{award}}">
+    <view class="text">
+        <view>每看完一篇文章，您将获得</view>
+        <text>一分钱的奖励噢</text>
+    </view>
+</view>

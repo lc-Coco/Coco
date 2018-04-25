@@ -1,0 +1,19 @@
+<!-- pages/eject/eject.wxml -->
+<view class="bg">
+    <view class="add">
+        <view class="iconfont icon-shouye"></view>
+        <view class="city">{{city}}</view>
+    </view>
+    <view class="wraper">
+        <view class="img">
+            <view class="avatar">
+                <image src="/images/000.png" />
+            </view>
+        </view>
+        <view class="text">
+            <view class="name">哈喽</view>
+            <text>很高兴认识你</text>
+        </view>
+        <navigator url="/pages/redPacket/receive/receive" class="btn" hover-class="navigator-hover" open-type="navigate"></navigator>
+    </view>
+</view>

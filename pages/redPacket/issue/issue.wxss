@@ -1,0 +1,198 @@
+/* pages/release/release.wxss */
+
+.main {
+	padding: 0 30rpx;
+}
+
+.top {
+	width: 100%;
+	height: 90rpx;
+	line-height: 90rpx;
+	margin-right: 60rpx;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2rpx solid #eaedf2;
+}
+
+.top text {
+	font-size: 28rpx;
+}
+
+.top .image {
+	width: 60rpx;
+	height: 60rpx;
+	margin: 20rpx 0rpx;
+}
+.top .image image {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.main .section {
+	padding-top: 20rpx;
+	width: 100%;
+	height: 250rpx;
+	border-bottom: 8rpx solid #eaedf2;
+}
+
+.section textarea {
+	display: block;
+	width: 100%;
+	height: 145rpx;
+	font-size: 28rpx;
+}
+
+.section .upload {
+	width: 80rpx;
+	height: 80rpx;
+	text-align: center;
+	line-height: 80rpx;
+	font-size: 28rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+	color: #eaedf2;
+	border: 2rpx solid #eaedf2;
+}
+
+.title {
+	display: flex;
+	line-height: 100rpx;
+	height: 100rpx;
+	font-size: 28rpx;
+	border-bottom: 4rpx solid #eaedf2;
+	justify-content: space-between;
+}
+
+.title .input {
+	display: flex;
+	text-align: right;
+	justify-content: space-between;
+	width: 150rpx;
+}
+
+.title input {
+	margin-top: 25rpx;
+	padding-right: 10rpx;
+	width: 120rpx;
+}
+
+.money {
+	width: 100%;
+	padding-top: 40rpx;
+	text-align: center;
+}
+
+.money text {
+	font-size: 50rpx;
+	font-weight: bolder;
+}
+
+.fee {
+	font-size: 28rpx;
+	color: #8f8e94;
+	line-height: 40rpx;
+	text-align: center;
+}
+
+button {
+	margin: 20rpx 0 50rpx 0;
+	color: white;
+	border-radius: 30rpx;
+	background-color: red;
+}
+.box {
+	width: 100%;
+	position:fixed;
+	bottom: 0;
+	z-index: 999;
+	background-color: #fff;
+	/* display: none; */
+}
+
+.box .pay {
+	display: flex;
+	height: 90rpx;
+	align-items: center;
+	background: #f0f0f0;
+	font-size: 32rpx;
+	padding: 0 30rpx;
+	color: #3f4a59;
+}
+.pay .two {
+	padding: 0 10rpx;
+	color: #fb6363;
+}
+.wraper {
+	box-sizing: border-box;
+	padding: 0 30rpx;
+}
+
+.lc-radio .items-hover {
+	background: rgba(0, 0, 0, 0.199);
+}
+.lc-radio .items-wrap {
+	display: flex;
+	padding: 10rpx 0rpx;
+	justify-content: space-between;
+	border-bottom: 2rpx solid#e5e5e5;
+}
+.lc-radio .items-wrap .items {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.lc-radio .items-wrap .items-img {
+	width: 50rpx;
+	height: 50rpx;
+}
+
+.items-wrap .menu {
+	display: flex;
+	align-items: center;
+	padding-left: 10rpx;
+}
+
+.items-wrap .menu .tips {
+	display: flex;
+	color: #949eac;
+	align-items: center;
+	font-size: 26rpx;
+}
+.tips-txt {
+	padding-left: 5rpx;
+}
+.menu-main {
+	padding: 0 20rpx;
+	font-size: 32rpx;
+}
+.myRadio-wrap {
+	right: -20rpx;
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+	border: 4rpx solid #fa6363;
+	position: relative;
+	transform: scale(0.5);
+}
+.myRadio-wrap .myRadio {
+	position: absolute;
+	width: 60rpx;
+	height: 60rpx;
+	background: #fa6363;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.myRadioBorderRed {
+	border-color: #fa6363;
+}
+.myRadioBorderSilver {
+	border-color: silver;
+}
+
+.btn {
+	margin: 34rpx 0 60rpx 0;
+}

@@ -1,0 +1,117 @@
+/* pages/my/myCollect/myCollect.wxss */
+#main {
+	width: 100%;
+	height: 100%;
+	padding: 0 30rpx;
+	box-sizing: border-box;
+}
+
+.comment {
+	display: flex;
+	height: 200rpx;
+	font-size: 34rpx;
+	padding: 15rpx 0 0 0;
+	border-bottom: 2rpx solid #e4e4e4;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.comment .lc-box {
+	display: flex;
+	height: 200rpx;
+	font-size: 34rpx;
+	line-height: 50rpx;
+	justify-content: space-between;
+}
+
+.lc-btm {
+	display: flex;
+	height: 60rpx;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.comment .left {
+	width: 70%;
+	height: 100%;
+}
+
+.comment .left .text {
+	width: 100%;
+	height: 150rpx;
+}
+
+.comment .right {
+	width: 280rpx;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+.comment .lc-img {
+	width: 230rpx;
+	height: 142rpx;
+}
+
+.lc-img image {
+	width: 100%;
+	height: 100%;
+}
+
+.comment .name {
+	color: #a8a8a8;
+	font-size: 26rpx;
+}
+
+.comment .reviews {
+	display: flex;
+	justify-content: flex-end;
+	color: #a8a8a8;
+	font-size: 26rpx;
+}
+
+.comment .reviews .time {
+	margin-left: 30rpx;
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	font-size: 34rpx;
+}
+
+.title {
+	padding: 15rpx 0;
+	line-height: 50rpx;
+}
+
+.images {
+	display: flex;
+	height: 150rpx;
+	justify-content: space-between;
+}
+
+.images .lc-img {
+	width: 220rpx;
+	height: 150rpx;
+}
+
+.box .btm {
+	font-size: 26rpx;
+	display: flex;
+	height: 48rpx;
+	color: #a8a8a8;
+	align-items: center;
+	border-bottom: 2rpx solid #e4e4e4;
+	justify-content: space-between;
+}
+
+.btm .reviews {
+	display: flex;
+	justify-content: space-around;
+}
+
+.btm .reviews .time {
+	margin-left: 30rpx;
+}

@@ -1,0 +1,28 @@
+<view id="main">
+    <view class="allComment">
+        <!-- <view class="inner" wx:for="{{commentsList}}" wx:key="{{item.id}}"> -->
+        <view class="inner">
+            <view class="left">
+                <view class="left-img">
+                    <!-- <image src="{{item.user.avatar}}" /> -->
+                    <image src="/images/000.png" />
+                </view>
+            </view>
+            <view class="right">
+                <view class="top">
+                    <view class="name">德玛西亚</view>
+                    <!-- <view class="praise" bindtap="commentThumbs" data-index="{{index}}" data-id="{{item.id}}"> -->
+                    <view class="praise">
+                        <view class="iconfont icon-zan"></view>
+                        <view>500</view>
+                    </view>
+                </view>
+                <view class="center">据斯洛伐克的距离世界发牢骚解放路刷卡缴费联赛交锋历史交锋历史纪录</view>
+                <view class="bottom">
+                    <view class="time">03-15 18:01</view>
+                    <view class="reply">5回复</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

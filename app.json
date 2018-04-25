@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/media/media/media",
+    "pages/media/detail/detail",
+    "pages/media/reply/reply",
+    "pages/circle/circle/circle",
+    "pages/redPacket/redPacket/redPacket",
+    "pages/redPacket/eject/eject",
+    "pages/redPacket/issue/issue",
+    "pages/redPacket/released/released",
+    "pages/redPacket/receive/receive",
+    "pages/redPacket/message/message",
+    "pages/logs/logs",
+    "pages/my/my/my",
+    "pages/my/myCollect/myCollect",
+    "pages/my/myReleased/myReleased",
+    "pages/my/myRedBag/myRedBag",
+    "pages/my/mySuggest/mySuggest",
+    "pages/my/myAboutUs/myAboutUs",
+    "pages/my/mySettings/mySettings",
+    "pages/my/myEarnings/myEarnings"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/media/media/media",
+        "text": "自媒体",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/circle/circle/circle",
+        "text": "圈子",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/redPacket/redPacket/redPacket",
+        "text": "红包",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      },
+      {
+        "pagePath": "pages/my/my/my",
+        "text": "我的",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png"
+      }
+    ]
+  }
+}

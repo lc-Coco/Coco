@@ -1,0 +1,83 @@
+#main {
+    width: 100%;
+    height: 100%;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+}
+.allComment .inner {
+	display: flex;
+	height: 100%;
+	padding-top: 30rpx;
+	border-bottom: 2rpx solid #e4e4e4;
+}
+.inner .left {
+	flex-basis: 120rpx;
+}
+
+.inner .left .left-img {
+	display: flex;
+	width: 92rpx;
+	height: 92rpx;
+	border-radius: 50%;
+}
+
+.inner .right {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	flex: 1;
+}
+
+.inner .top {
+	display: flex;
+	height: 60rpx;
+	color: #999;
+	justify-content: space-between;
+}
+
+.top .name {
+	color: #575757;
+}
+
+.top .praise {
+	display: flex;
+	font-size: 28rpx;
+}
+
+.top .icon-zan {
+	padding-right: 10rpx;
+}
+
+.inner .center {
+	line-height: 48rpx;
+	font-size: 28rpx;
+}
+
+.inner .bottom {
+	display: flex;
+	height: 62rpx;
+	align-items: center;
+}
+
+.bottom .time {
+	font-size: 28rpx;
+	color: #b3b3b3;
+	padding-right: 25rpx;
+}
+
+.bottom .reply {
+	width: 100rpx;
+	height: 40rpx;
+	font-size: 24rpx;
+	text-align: center;
+	line-height: 40rpx;
+	background-color: #dfdcdc;
+	border-radius: 20rpx;
+}
+
+image {
+	width: 100%;
+    height: 100%;
+	border-radius: 50%;
+    
+}

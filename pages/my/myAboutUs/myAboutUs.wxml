@@ -1,0 +1,21 @@
+<view id="logo">
+    <view class="img">
+        <image src="http://image.34a.com.cn/images/logo.png"></image>
+    </view>
+</view>
+<view class="text">
+    <text>能赚钱的小程序</text>
+</view>
+<view class="content">
+    <view>自从傻子小小的聪明被压制得无声无息，聪明人小小的傻气显得更吸引眼球了。——《皆大欢喜》</view>
+    <view>自从傻子小小的聪明被压制得无声无息，聪明人小小的傻气显得更吸引眼球了。——《皆大欢喜》</view>
+    <view>自从傻子小小的聪明被压制得无声无息，聪明人小小的傻气显得更吸引眼球了。——《皆大欢喜》</view>
+    <view>自从傻子小小的聪明被压制得无声无息，聪明人小小的傻气显得更吸引眼球了。——《皆大欢喜》</view>
+    <view>自从傻子小小的聪明被压制得无声无息，聪明人小小的傻气显得更吸引眼球了。——《皆大欢喜》</view>
+</view>
+
+<view class="company">
+    <text>
+        深圳市前海互动科技有限公司
+    </text>
+</view>

@@ -1,0 +1,113 @@
+page {
+	font-family: "PingFangSC-Regular";
+}
+.wraper {
+	width: 100%;
+	height: 450rpx;
+	background-color: #edebed;
+}
+.header {
+	width: 100%;
+	height: 195rpx;
+	position: relative;
+}
+
+.top {
+	width: 100%;
+	height: 195rpx;
+}
+image {
+	width: 100%;
+	height: 100%;
+}
+
+.master {
+	width: 172rpx;
+	height: 172rpx;
+	position: absolute;
+	bottom: -60rpx;
+	left: 50%;
+	border: 6rpx solid white;
+	border-radius: 50%;
+	transform: translateX(-50%);
+}
+.master image {
+	border-radius: 50%;
+}
+
+.header .text {
+	margin: 80rpx auto;
+	text-align: center;
+	width: 200rpx;
+	height: 173rpx;
+	font-size: 34rpx;
+}
+.text .money {
+	font-size: 24rpx;
+	color: #9fa4b1;
+}
+.text .money .sum {
+	padding-right: 20rpx;
+	font-size: 56rpx;
+	color: #fb6363;
+}
+
+.text .save {
+	font-size: 24rpx;
+	color: #437fd9;
+}
+
+.title {
+	width: 100%;
+	line-height: 80rpx;
+	padding-left: 30rpx;
+	color: #969396;
+	font-size: 26rpx;
+	border-bottom: 1rpx solid #c0c0c0;
+}
+
+.main {
+    width: 100%;
+	height: 100%;
+    padding: 0 30rpx;
+	box-sizing: border-box;
+}
+
+.main .inner {
+	display: flex;
+    height: 150rpx;
+	align-items: center;    
+    justify-content: space-between;
+    border-bottom: 1rpx solid #c0c0c0;
+}
+.inner .left {
+	width: 60%;
+    display: flex;
+    height: 150rpx;
+	align-items: center;
+}
+.left .lc-image {
+	width: 110rpx;
+    height: 110rpx;
+}
+
+.lc-image image {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.left .people {
+    font-size: 36rpx;
+    padding-left: 20rpx;
+}
+.people .name {
+    line-height: 55rpx;
+}
+.people .time {
+    line-height: 55rpx;
+    font-size: 34rpx;
+    color: #888888;
+}
+.inner .right {
+    font-size: 36rpx;
+}

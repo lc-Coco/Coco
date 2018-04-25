@@ -1,0 +1,94 @@
+<view class="header">
+    <view class="top">
+        <image src="/images/05.png" />
+    </view>
+    <view class="master">
+        <image src="/images/000.png" />
+    </view>
+    <view class="text">
+        <text>彭可的红包</text>
+        <view class="money">
+            <text class="sum">0.5</text>
+            元
+        </view>
+        <text class="save">已存入余额中</text>
+    </view>
+</view>
+<view class="main">
+    <view class="list">
+        <text class="title">已领取</text>
+        <navigator url="/pages/redPacket/message/message" class="mass" hover-class="navigator-hover" open-type="navigate">
+            <view class="img">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="img">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="img">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="img">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="img">
+                <image src="/images/000.png"></image>
+            </view>
+            <view class="img">
+                <image src="/images/000.png"></image>
+            </view>
+        </navigator>
+
+    </view>
+    <view class="inner">
+        <view class="title">
+            <view class="left">
+                <view class="lc-img">
+                    <image src="/images/000.png" />
+                </view>
+                <text class="name">彭可的红包</text>
+            </view>
+            <view class="iconfont icon-zan"></view>
+        </view>
+        <view class="content">土地是以他的肥沃和收货而被估价的；才能也是徒弟，不过他生产的不是粮食，而是真理</view>
+        <view class="img-three">
+            <view class="box-img">
+                <image src="/images/000.png" />
+            </view>
+            <view class="box-img">
+                <image src="/images/000.png" />
+            </view>
+            <view class="box-img">
+                <image src="/images/000.png" />
+            </view>
+        </view>
+        <view class="two">
+            <view>聊天</view>
+            <view>位置</view>
+            <view>转发</view>
+        </view>
+    </view>
+    <view class="comment">
+        <view class="perch">
+            <view class="comment-img">
+                <image src="/images/000.png" />
+            </view>
+        </view>
+        <view class="c-title">
+            <view class="name">爱上喵</view>
+            <view class="iconfont icon-zan"></view>
+        </view>
+        <view class="details">学习了，好棒！</view>
+        <view class="date">
+            <view>
+                <text class="time">12:00</text>
+                评论
+            </view>
+        </view>
+    </view>
+</view>
+<view class="footer">
+    <view class="btn">评论</view>
+    <view class="input">
+        <input value="" type="text" password="false"></input>
+    </view>
+</view>

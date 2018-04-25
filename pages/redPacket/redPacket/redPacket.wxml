@@ -1,0 +1,155 @@
+<view class="header">
+    <view class="top">
+        <image src="/images/05.png" />
+    </view>
+    <navigator url="/pages/redPacket/eject/eject" class="weiFare" hover-class="none">
+        <image src="/images/3.png" />
+    </navigator>
+    <navigator class="nav-money" url="/pages/redPacket/issue/issue" hover-class="none">
+        <image src="/images/money.png"></image>
+    </navigator>
+</view>
+<view class="wraper">
+    <view class="title">红包金榜</view>
+    <view class="main">
+        <view class="ranking">
+            <view class="image">
+                <image src="/images/000.png" />
+            </view>
+            <view class="name">渣渣辉</view>
+            <view class="sumo">100.00元</view>
+            <view class="unm">1</view>
+            <view class="crown">
+                <image src="/images/j.png" />
+            </view>
+        </view>
+        <view class="ranking">
+            <view class="image">
+                <image src="/images/000.png" />
+            </view>
+            <view class="name">渣渣辉</view>
+            <view class="sumo">100.00元</view>
+            <view class="unm">2</view>
+            <view class="crown">
+                <image src="/images/y.png" />
+            </view>
+        </view>
+        <view class="ranking">
+            <view class="image">
+                <image src="/images/000.png" />
+            </view>
+            <view class="name">渣渣辉</view>
+            <view class="sumo">100.00元</view>
+            <view class="unm">3</view>
+            <view class="crown">
+                <image src="/images/t.png" />
+            </view>
+        </view>
+        <view class="ranking">
+            <view class="image">
+                <image src="/images/000.png" />
+            </view>
+            <view class="name">渣渣辉</view>
+            <view class="sumo">100.00元</view>
+            <view class="unm">4</view>
+        </view>
+    </view>
+</view>
+<view class="summary">
+    <view class="total">
+        <view class="viewImg">
+            <image src="/images/money.png"></image>
+        </view>
+        <view class="text">
+            红包累计发放金额：
+            <text class="money">5898.56元</text>
+        </view>
+    </view>
+    <view class="total">
+        <view class="viewImg">
+            <image src="/images/gonggao.png"></image>
+        </view>
+        <view class="text">
+            <text class="name">红悟空</text>
+            阅读文章获得收益：
+            <text class="money">0.06元</text>
+        </view>
+    </view>
+    <view class="total">
+        <view class="viewImg">
+            <image src="/images/gonggao.png"></image>
+        </view>
+        <view class="text">
+            <text class="name">孙悟空</text>
+            邀请好友成功获得收益：
+            <text class="money">0.05元</text>
+        </view>
+    </view>
+</view>
+<view class="message">
+    <view class="content">
+        <view class="left">
+            <view class="menu">
+                <view class="img">
+                    <image src="/images/000.png"></image>
+                </view>
+                <view class="info">
+                    <text class="name">狗蛋</text>
+                    <text class="region">深圳福田</text>
+                    <view class="time">
+                        <text>18:20</text>
+                        <text class="just">刚刚提现</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="right">
+            <text>52. 0</text>
+            元
+        </view>
+    </view>
+    <view class="content">
+        <view class="left">
+            <view class="menu">
+                <view class="img">
+                    <image src="/images/000.png"></image>
+                </view>
+                <view class="info">
+                    <text class="name">狗蛋</text>
+                    <text class="region">深圳福田</text>
+                    <view class="time">
+                        <text>18:20</text>
+                        <text class="just">抢到一个红包</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="right">
+            <view class="icon">
+                <image src="/images/hb.png" />
+            </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="left">
+            <view class="menu">
+                <view class="img">
+                    <image src="/images/000.png"></image>
+                </view>
+                <view class="info">
+                    <text class="name">狗蛋</text>
+                    <text class="region">深圳福田</text>
+                    <view class="time">
+                        <text>18:20</text>
+                        <text class="just">抢到一个红包</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+        <view class="right">
+            <view class="icon">
+                <image src="/images/hb.png" />
+            </view>
+        </view>
+    </view>
+</view>
